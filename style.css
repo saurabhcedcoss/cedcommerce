@@ -1,0 +1,56 @@
+.container {
+  background-image: url("img/hero-bg.png");
+  background-repeat: no-repeat;
+}
+.logo {
+  display: block;
+}
+.imglogo {
+  margin-top: 55px;
+  margin-left: 80px;
+}
+.row {
+  display: flex;
+}
+.logotitle {
+  flex: 50%;
+  margin: 85px 0px 20px 80px;
+  text-shadow: 1px 2px 5px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+.title {
+  margin: 0px;
+}
+.para {
+  margin: 0px;
+  font-weight: 600;
+}
+.containerhero {
+  flex: 50%;
+  margin-top: 45px;
+}
+.heroimg {
+  height: 350px;
+}
+.formcontainer {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  justify-content: center;
+}
+.formtitle {
+  margin: 0px 0px 10px 0px;
+  font-size: 20px;
+  font-family: monospace;
+  justify-content: center;
+}
+.formcontent{
+    display: flex;
+}
+.formemail{
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color:#f5f5f5;
+}
